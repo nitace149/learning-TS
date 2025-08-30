@@ -3,10 +3,10 @@ import type { ReactElement } from "react";
 export interface ButtomProps {
     varient: "Primary" | "Secondary";
     size: "sm" | "md" | "lg";
-    text: String;
-    startIcon: ReactElement;
-    endIcon: ReactElement;
-    onclick: () => void;
+    text?: String;
+    startIcon?: ReactElement;
+    endIcon?: ReactElement;
+    onclick?: () => void;
 }
 
 
